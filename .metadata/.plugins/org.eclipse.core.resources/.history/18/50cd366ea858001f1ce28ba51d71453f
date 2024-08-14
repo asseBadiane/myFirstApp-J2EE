@@ -1,0 +1,5 @@
+<ul>
+    <li><a href="accueil.jsp">Accueil</a></li>
+    <li><a href="bonjour.jsp">Bonjour</a></li>
+    <li> <a href="test.jsp"> Test</a></li>
+</ul>

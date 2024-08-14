@@ -1,0 +1,21 @@
+<%@ page pageEncoding="UTF-8" %>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Test</title>
+    </head>
+	<body>
+		<%@ include file="menu.jsp" %>
+		<p>Bonjour Asse Malick ! </p>
+		<%
+		String bye = (String) request.getAttribute("variable");
+		String person = (String) request.getAttribute("person");
+		if (person == "Mamy"){
+			out.println(bye);
+		} else {
+			out.println("Au revoir!");
+		}
+		%>
+	</body>
+</html>
